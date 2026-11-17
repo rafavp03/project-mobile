@@ -18,7 +18,7 @@ Aplicación móvil (React Native + Expo) de Gamarrito, el ERP/SaaS para MYPES te
 
 | Componente | URL |
 |---|---|
-| Aplicación móvil (build de prueba, APK) | <PEGAR AQUI el enlace de la build en expo.dev> |
+| Aplicación móvil (build de prueba, APK) | <https://expo.dev/accounts/gabrielmurilloo/projects/gamarrito-mobile/builds/2d1cd75b-5af0-4aee-8c8b-c3621efadca2> |
 | Backend (API) | <https://gamarrito-backend.up.railway.app/api/v1> |
 | Web (producción) | <https://gamarrito-erp.vercel.app> |
 | Repositorio móvil | <https://github.com/rafavp03/project-mobile> |
@@ -143,15 +143,14 @@ eas update --channel preview --environment preview --message "Descripción del c
 
 Una actualización solo llega a builds con la misma `runtimeVersion`. Al cambiar dependencias nativas o la versión de la app, hay que generar una build nueva.
 
-## Usuarios de prueba
+## Usuario de prueba
 
 | Rol | Correo | Contraseña |
 |---|---|---|
-| ADMIN | <prueba@test.com> | <Prueba123> |
-| EMPLEADO | <empleado@test.com> | <Empleado123> |
+| ADMIN | <prueba@test.com> | `Password1` |
 
 ## Notas
 
 - El asistente IA tiene un límite de 30 consultas diarias por usuario y depende de la cuota del proveedor de IA configurado en el backend.
-- El asistente responde solo con texto: el backend aún no envía datos para gráficos o tablas.
+- El asistente responde con texto y, cuando se pide, con gráficos (barras, línea, torta), tarjetas y tablas dibujados con datos reales del negocio.
 - Para probar la cámara y la ubicación se recomienda un dispositivo físico; los emuladores necesitan configurarlas aparte.
